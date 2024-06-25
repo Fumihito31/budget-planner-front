@@ -1,0 +1,110 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "john_doe",
+        "email": "john.doe@example.com",
+        "password": "password123"
+      },
+      {
+        "id": 2,
+        "username": "jane_smith",
+        "email": "jane.smith@example.com",
+        "password": "securepassword"
+      },
+      {
+        "id": 3,
+        "username": "tester",
+        "email": "testerh@example.com",
+        "password": "12345"
+      
+      }
+    ],
+    "incomes": [
+      {
+        "id": 1,
+        "userId": 1,
+        "month": "January",
+        "source": "Salary",
+        "amount": 5000,
+        "investments": "401(k)"
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "month": "February",
+        "source": "Freelancing",
+        "amount": 1000,
+        "investments": "Stocks"
+      },
+      {
+        "id": 3,
+        "userId": 2,
+        "month": "January",
+        "source": "Salary",
+        "amount": 5500,
+        "investments": "401(k)"
+      },
+      {
+        "id": 4,
+        "userId": 2,
+        "month": "February",
+        "source": "Rental Income",
+        "amount": 700,
+        "investments": "Real Estate"
+      }
+    ],
+    "expenses": [
+      {
+        "id": 1,
+        "userId": 1,
+        "month": "January",
+        "expenseType": "Recharge",
+        "expenseAmount": 1000
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "month": "January",
+        "expenseType": "Light Bills",
+        "expenseAmount": 500
+      },
+      {
+        "id": 3,
+        "userId": 2,
+        "month": "February",
+        "expenseType": "Essentials",
+        "expenseAmount": 200
+      },
+      {
+        "id": 4,
+        "userId": 2,
+        "month": "February",
+        "expenseType": "Light Bills",
+        "expenseAmount": 400
+      }
+    ],
+    "todoTransactions": [
+      {
+        "id": 1,
+        "userId": 1,
+        "description": "Pay electricity bill"
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "description": "Submit monthly report"
+      },
+      {
+        "id": 3,
+        "userId": 2,
+        "description": "Buy groceries"
+      },
+      {
+        "id": 4,
+        "userId": 2,
+        "description": "Call insurance company"
+      }
+    ]
+  }
+  
